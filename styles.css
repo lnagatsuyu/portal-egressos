@@ -4,7 +4,8 @@
 }
 .titulo-login{
     font-family: 'Montserrat', sans-serif;  
-    font-weight: normal;    
+    font-weight: normal;  
+    font-size: 50;  
 }
 
 header{
@@ -30,10 +31,12 @@ header{
 
 .input-login{
     display: block;
+    font-size: medium;
     margin: 0 0 20px;
     padding: 5px 10px;
-    width:90%;
+    width:93%;
     max-width: 40rem;;
+    height: 40px;
     text-align: center;
     color:white;
     border-radius: 6px;
@@ -41,14 +44,53 @@ header{
 
 .btn-login{
     display: block;
+    font-size: medium;
+    font-weight: bold;
     padding: 5px 10px;
-    width: 90%;
-    max-width: 40rem;;
+    width: 93%;
+    height: 40px;
+    max-width: 40rem;
     text-align: center;
     background-color:white;
     color: #2145B0;
     border-radius: 6px;
 }
+
+.reset-pwd{
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 56%;
+}
+
+.criar-conta{
+    display: block;
+    font-size: 16px;
+    padding: 10px 0px 20px;
+    text-align: center;
+    border:none;
+    color: white;
+    position: absolute;
+    
+}
+
+.btn-login:hover{
+    background-color: #FEBB0A;
+    color: #0E1D4A;
+}
+
+.reset-pwd:hover{
+    color: #FEBB0A;
+}
+
+.criar-conta:hover{
+    color: #FEBB0A;
+}
+
 
 ::placeholder{
     color:white;
